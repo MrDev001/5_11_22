@@ -1,0 +1,8 @@
+firstLetterCaseCheck =(str) =>{
+    if(str[0].toUpperCase() === str[0]){
+        return 'First Letter is Upper Case';
+    }else{
+        return 'First Letter is Lower Case';
+    }
+}
+console.log(firstLetterCaseCheck('Pakistan'));

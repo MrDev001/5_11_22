@@ -1,0 +1,4 @@
+stringCounter =(str) =>{
+    return count = str.length;
+}
+console.log(stringCounter("Pakistan"));
